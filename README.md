@@ -1,13 +1,13 @@
-## What is eFood?
+# What is eFood?
 eFood is a small scale online order management system.
 It uses Bootstrap at front end and Django at backend.
 
-# Configuring project:
+## Configuring project:
 
 - Install and run Postgresql
  - Reffer https://www.postgresql.org/download/
 
-- Create Database and User, grant all privilages. Modify ~~mysite/settings.py~~ accordinlgy
+- Create Database and User, grant all privilages. Modify ~~~mysite/settings.py~~~ accordinlgy
  - ``` $ psql
  - ``` # CREATE DATABASE myproject;
  - ``` # CREATE USER myprojectuser WITH PASSWORD 'password';
@@ -44,8 +44,8 @@ It uses Bootstrap at front end and Django at backend.
  - ``` $ python manage.py runserver
 
 
-# Directory Structure:
-
+## Directory Structure:
+~~~
 mysite/
 |__ manage.py
 |__ README.md
@@ -71,5 +71,5 @@ mysite/
 	|__ efood/
             |__ *.html  # html templates
 
-
+~~~
 # All product names, logos, and brands are property of their respective owners.
