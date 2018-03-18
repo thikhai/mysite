@@ -45,7 +45,7 @@ $ pip install django==1.11 psycopg2
 - Go to project directory and create the tables in the database for efood app
 ~~~
 $ cd mysite
-$ python manage.py migrate
+$ python manage.py makemigrations
 $ python manage.py migrate
 ~~~
 - Run Server on local machine
