@@ -4,10 +4,9 @@ It uses Bootstrap at front end and Django at backend.
 
 ## Configuring project:
 
-- Install and run Postgresql
- - Reffer https://www.postgresql.org/download/
+- Install and run Postgresql. Refer [Guide](https://www.postgresql.org/download/)
 
-- Create Database and User, grant all privilages. Modify ~~~mysite/settings.py~~~ accordinlgy
+- Create Database and User, grant all privilages. Modify `mysite/settings.py` accordinlgy
 ~~~
  - $ psql
  - # CREATE DATABASE myproject;
