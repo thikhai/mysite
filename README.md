@@ -35,6 +35,7 @@ $ pip install django==1.11 psycopg2 psycopg2-binary
 - Install and run Postgresql. Refer [Guide](https://www.postgresql.org/download/)
 - Create Database and User, grant all privilages.
 ~~~
+  $ sudo su - postgres
   $ psql
   # CREATE DATABASE myproject;
   # CREATE USER myprojectuser WITH PASSWORD 'password';
