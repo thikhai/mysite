@@ -77,6 +77,13 @@ then change `ident` to `md5` in  `/var/lib/pgsql/10/data/pg_hba.conf`:
 host    all             all             ::1/128                 ident
 ~~~
 
+- After making above change restart postgres service:
+~~~
+$ systemctl restart postgresql-10
+$ python manage.py makemigrations
+$ python manage.py migrate
+~~~
+
 - Run Server on local machine
 ~~~
 $ python manage.py runserver
