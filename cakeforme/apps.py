@@ -4,5 +4,5 @@ from __future__ import unicode_literals
 from django.apps import AppConfig
 
 
-class EfoodConfig(AppConfig):
-    name = 'efood'
+class CakeformeConfig(AppConfig):
+    name = 'cakeforme'

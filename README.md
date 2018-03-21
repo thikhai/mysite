@@ -1,6 +1,6 @@
-# What is eFood?
-eFood is a small scale online order management system.
-It uses Bootstrap at front end and Django at backend.
+# What is cakeforme?
+cakeforme is a online cake oredering system.
+It uses Bootstrap at front-end and Django at backend.
 
 ## Configuring project:
 
@@ -99,7 +99,7 @@ mysite/
 |    |__ settings.py
 |    |__ urls.py
 |    |__ wsgi.py
-|__ efood/
+|__ cakeforme/
     |__ admin.py
     |__ apps.py
     |__ __init__.py
@@ -110,10 +110,10 @@ mysite/
     |__ migrations/
     |   |__ __init__.py
     |__ static/
-    |   |__ efood/
+    |   |__ cakeforme/
     |	|   |__ *.js    # js, css etc files
     |__ templates/
-	|__ efood/
+	|__ cakeforme/
             |__ *.html  # html templates
 
 ~~~
